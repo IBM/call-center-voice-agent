@@ -37,10 +37,10 @@ When the reader has completed this code pattern, they will understand how to:
 
 1. [Create Voice Agent with Watson service on IBM Cloud](#1-Create-Voice-Agent-with-Watson-service-on-IBM-Cloud)
 2. [Configure Twilio](#2-Configure-Twilio)
-3. [Configure Voice Agent and create Watson Assistant, Watson Speech to Text and Watson Text to Speech services](#3-Configure-Voice-Agent-and-create-Watson-Assistant,-Watson-Speech-to-Text-and-Watson-Text-To-Speech-services)
+3. [Configure Voice Agent and create Watson Assistant, Watson Speech to Text and Watson Text to Speech services](#3-Configure-Voice-Agent-and-create-Watson-Assistant-Watson-Speech-to-Text-and-Watson-Text-To-Speech-services)
 4. [Import the dialog skill into Watson Assistant](#4-Import-the-dialog-skill-into-Watson-Assistant)
 5. [Test your voice agent](#5-Test-your-voice-agent)
-6. [Improve speech recognition accuracy by creating a Watson Speech to Text custom language model with a grammar (optional)](#6-Improve-speech-recognition-accuracy-by-creating-a-Watson-Speech-to-Text-custom-language-model-with-a-grammar-(optional))
+6. [Improve speech recognition accuracy by creating a Watson Speech to Text custom language model with a grammar (optional)](#6-Improve-speech-recognition-accuracy-by-creating-a-Watson-Speech-to-Text-custom-language-model-with-a-grammar-optional-)
 
 ### 1. Create Voice Agent with Watson service on IBM Cloud
 
