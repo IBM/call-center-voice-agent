@@ -124,12 +124,17 @@ Custom language models are not available on the free Lite plan for Watson Speech
 
 To create the custom language model we'll need to use the Watson Speech to Text customization interface.  Retrieve the apikey and url by launching the Speech To Text service and selecting the **Manage** tab.
 
-![](images/speechToTextAPIkey.png)
+![](images/speechToTextAPIKey.png)
 
 Use curl to create a custom language model based on the default model used by Voice Agent, e.g. en-US_NarrowbandModel, replacing the {apikey} and {url} accordingly.
 
 ```
-curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"name\": \"Agent names model\", \"base_model_name\": \"en-US_NarrowbandModel\", \"description\": \"Custom language model using grammar for agent names\"}" "{url}/v1/customizations"
+curl -X POST -u "apikey:{apikey}" \
+--header "Content-Type: application/json" \
+--data "{\"name\": \"Agent names model\", \
+         \"base_model_name\": \"en-US_NarrowbandModel\", \
+         \"description\": \"Custom language model using grammar for agent names\"}" \
+"{url}/v1/customizations"
 ```
 
 The response will be a 'customization_id' similar to this.
